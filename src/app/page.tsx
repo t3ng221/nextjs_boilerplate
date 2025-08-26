@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import styled from 'styled-components';
 
@@ -191,7 +193,7 @@ export default function Home() {
           <StepItem>
             Get started by editing{" "}
             <CodeBlock>
-              pages/index.tsx
+              app/page.tsx
             </CodeBlock>
             .
           </StepItem>
